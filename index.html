@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta name="description" content="选择一种鹈鹕骑行风格：清新插画版或互动探索版。两个版本均可离线运行。">
+  <title>鹈鹕的海边骑行 · 选择风格</title>
+  <style>
+    :root{color-scheme:light;--ink:#26453f;--muted:#6f8179;--paper:#f5f2e9;--line:#d8dfd4}
+    *{box-sizing:border-box}body{margin:0;min-height:100svh;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.42;background:radial-gradient(circle at 12% 18%,#d8e9db 0,transparent 36%),radial-gradient(circle at 88% 78%,#efd8ba 0,transparent 38%)}
+    main{position:relative;max-width:1100px;margin:auto;padding:35px 28px 42px}.top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:20px;font-size:11px;letter-spacing:2px}.logo{font-weight:750;line-height:1.45}.edition{color:var(--muted)}.intro{padding:58px 0 42px}.eyebrow{font-size:11px;letter-spacing:3px;color:#7c9786;margin:0 0 11px}h1{font-weight:600;font-size:clamp(30px,4.5vw,56px);letter-spacing:2px;line-height:1.4;margin:0}.intro p:last-child{color:var(--muted);font-size:14px;line-height:1.8;margin:14px 0 0}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{display:block;overflow:hidden;text-decoration:none;color:inherit;border:1px solid #d8dfd2;border-radius:17px;background:#fffaf0;box-shadow:0 14px 34px #2946380c;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);box-shadow:0 20px 42px #29463820}.card:focus-visible{outline:3px solid #b4754a;outline-offset:4px}.art{height:224px;display:grid;place-items:center;position:relative;overflow:hidden}.art svg{height:100%;width:100%;display:block}.art-one{background:#d9e6d4}.art-two{background:#f5d7ba}.art:after{content:"";position:absolute;inset:auto 0 0;height:43px;background:linear-gradient(transparent,#2a574020);pointer-events:none}.label{font-size:10px;letter-spacing:2px;color:#8b9b83}.detail{padding:27px 29px 29px}.detail h2{font-size:23px;letter-spacing:1px;margin:9px 0 8px;font-weight:650}.detail p{margin:0;color:var(--muted);font-size:13px;line-height:1.8;min-height:48px}.go{display:inline-flex;align-items:center;gap:9px;color:#416e56;font-size:12px;font-weight:700;margin-top:22px}.card:last-child .go{color:#ac6a4c}.foot{display:flex;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-top:21px;margin-top:43px;font-size:11px;color:#829187}.foot span:last-child{text-align:right}
+    @media(max-width:680px){main{padding:23px 17px 28px}.intro{padding:38px 0 30px}.cards{grid-template-columns:1fr;gap:18px}.art{height:190px}.detail{padding:21px 23px 23px}.detail h2{font-size:21px}.detail p{min-height:0}.foot{line-height:1.7}}
+    @media(prefers-reduced-motion:reduce){.card{transition:none}}
+  </style>
+</head>
+<body>
+  <main>
+    <header class="top"><span class="logo">PELICAN<br>COAST CLUB</span><span class="edition">TWO WAYS TO RIDE · 2026</span></header>
+    <section class="intro"><p class="eyebrow">CHOOSE YOUR COASTAL ROUTE</p><h1>海风有两种打开方式。</h1><p>同一只鹈鹕，两段不同的旅程。选一款喜欢的风格，直接出发。</p></section>
+    <nav class="cards" aria-label="选择网页风格">
+      <a class="card" href="./鹈鹕骑行本地版/index.html">
+        <div class="art art-one" aria-hidden="true"><svg viewBox="0 0 520 224" xmlns="http://www.w3.org/2000/svg"><circle cx="419" cy="54" r="34" fill="#f4d29b"/><path d="M0 136q105-29 195 0t165-7 160 4v91H0Z" fill="#a9cdbb"/><path d="M0 166h520" stroke="#eaf1db" stroke-width="3"/><path d="M0 185h520v39H0Z" fill="#e4c6a4"/><g fill="none" stroke="#406454" stroke-width="5"><circle cx="170" cy="170" r="37"/><circle cx="327" cy="170" r="37"/><path d="m170 170 55-65 26 64-81 1m55-65h75l-49 64m49-64 27 65"/></g><path d="M199 82q14-24 43-19 19 3 29 19 14-18 7-33-5-22 17-26 25-3 29 19l71 13-73 2q-11 25-18 35-18 21-51 22-33 3-54-20Z" fill="#fffdf0" stroke="#788e79" stroke-width="2"/><path d="m322 54 73 1q-30 32-53 16Z" fill="#efa958"/><circle cx="308" cy="43" r="3.5" fill="#314640"/><path d="m276 82-36-11" stroke="#cb745b" stroke-width="8"/></svg></div>
+        <div class="detail"><span class="label">01 / CALM RIDE</span><h2>清新插画版</h2><p>看鹈鹕沿着海岸慢慢骑行。暂停、调速，再把晴日切换成日落。</p><span class="go">进入这段旅程 <span aria-hidden="true">↗</span></span></div>
+      </a>
+      <a class="card" href="./Pelican-Coast-Offline/index.html">
+        <div class="art art-two" aria-hidden="true"><svg viewBox="0 0 520 224" xmlns="http://www.w3.org/2000/svg"><circle cx="416" cy="48" r="35" fill="#f6bb7d"/><path d="M0 141q100-27 194-6t171-8 155 6v91H0Z" fill="#96b9a3"/><path d="M0 173h520v51H0Z" fill="#dcb59a"/><g fill="none" stroke="#355f59" stroke-width="5"><circle cx="163" cy="167" r="38"/><circle cx="329" cy="167" r="38"/><path d="m163 167 58-61 27 61-85 0m58-61h79l-52 61m52-61 29 61"/></g><path d="M194 81q15-26 43-20 18 4 30 20 17-18 8-33-6-22 16-26 26-2 30 19l73 12-75 4q-8 25-19 37-17 19-51 19-34 2-55-20Z" fill="#fff9ed" stroke="#847e70" stroke-width="2"/><path d="m319 53 75 0q-29 34-52 17Z" fill="#ed985b"/><circle cx="305" cy="43" r="3.5" fill="#344740"/><path d="m269 80-33-10" stroke="#d46d5c" stroke-width="8"/><path d="m93 48 4-7 4 7 7 4-7 4-4 7-4-7-7-4Zm365 78 3-6 3 6 6 3-6 3-3 6-3-6-6-3Z" fill="#fff1c2"/><path d="M72 88q6-6 12 0 6-6 12 0m302 15q6-6 12 0 6-6 12 0" fill="none" stroke="#fff5da" stroke-width="3"/></svg></div>
+        <div class="detail"><span class="label">02 / PLAYFUL RIDE</span><h2>互动探索版</h2><p>和鹈鹕打招呼，寻找藏在海边的小惊喜，还能制作旅行明信片。</p><span class="go">进入这段旅程 <span aria-hidden="true">↗</span></span></div>
+      </a>
+    </nav>
+    <footer class="foot"><span>两个版本均为独立 HTML，可离线打开。</span><span>慢一点，风景刚刚好。</span></footer>
+  </main>
+</body>
+</html>
